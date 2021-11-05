@@ -1,0 +1,401 @@
+<mxfile>
+    <diagram id="Ui6VCyraphrxTaSfZyLe" name="Page-1">
+        <mxGraphModel dx="884" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="移卡&amp;百果园交互流程图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=40;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="960" height="620" as="geometry">
+                        <mxRectangle x="10" y="30" width="160" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="236" value="用户" style="swimlane;startSize=20;" parent="8" vertex="1">
+                    <mxGeometry y="40" width="150" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="&lt;font style=&quot;font-size: 10px&quot;&gt;百果园用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="236" vertex="1">
+                    <mxGeometry x="60" y="30" width="20" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="&lt;font style=&quot;font-size: 10px&quot;&gt;游戏玩家&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="236" vertex="1">
+                    <mxGeometry x="51" y="303" width="20" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="百果园小程序" style="swimlane;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="8" vertex="1">
+                    <mxGeometry x="150" y="40" width="180" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="判断各类任务行为" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="9" vertex="1">
+                    <mxGeometry x="45" y="500" width="55" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="9" source="26" target="91" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="58" y="90"/>
+                            <mxPoint x="30" y="90"/>
+                            <mxPoint x="30" y="425"/>
+                        </Array>
+                        <mxPoint x="44" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9" source="26" target="304">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="73" y="90"/>
+                            <mxPoint x="72" y="90"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="首页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="9" vertex="1">
+                    <mxGeometry x="42.5" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=classicThin;endFill=1;strokeWidth=1;" parent="9" source="54" target="256" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="H5回调" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="9" vertex="1">
+                    <mxGeometry x="45" y="175" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="9" source="91" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="跳转指定界面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="9" vertex="1">
+                    <mxGeometry x="45" y="410" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;endArrow=classicThin;endFill=1;strokeWidth=1;" parent="9" source="256" target="91" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="跳转小游戏？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="9" vertex="1">
+                    <mxGeometry x="52.5" y="240" width="45" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="2. H5回调接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;fontStyle=1" parent="9" vertex="1">
+                    <mxGeometry x="109" y="167" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="9" vertex="1">
+                    <mxGeometry x="97" y="256" width="15" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="9" vertex="1">
+                    <mxGeometry x="75" y="306" width="15" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="&lt;font style=&quot;font-size: 10px&quot;&gt;点击游戏空间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="9">
+                    <mxGeometry x="37" y="110" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="H5游戏空间" style="swimlane;startSize=20;" parent="8" vertex="1">
+                    <mxGeometry x="330" y="40" width="150" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="10" source="25" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="首页" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="10" vertex="1">
+                    <mxGeometry x="37.5" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="去种树" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="10" vertex="1">
+                    <mxGeometry x="38" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;" parent="10" source="70" target="104" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;判断各类任务行为&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="45" y="90" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;font style=&quot;font-size: 9px&quot;&gt;跳转百果园？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="10" vertex="1">
+                    <mxGeometry x="46" y="160" width="44" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="10" vertex="1">
+                    <mxGeometry x="92" y="170" width="10" height="17" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="种树小游戏" style="swimlane;startSize=20;" parent="8" vertex="1">
+                    <mxGeometry x="480" y="40" width="150" height="580" as="geometry">
+                        <mxRectangle x="240" y="20" width="30" height="470" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.492;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="11" source="53" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font style=&quot;font-size: 12px&quot;&gt;登录界面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="11" vertex="1">
+                    <mxGeometry x="45" y="300" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;" parent="11" source="69" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;span style=&quot;font-size: 10px&quot;&gt;判断各类任务行为&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="53.75" y="380" width="42.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;font style=&quot;font-size: 9px&quot;&gt;跳转百果园？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="11" vertex="1">
+                    <mxGeometry x="53" y="450" width="44" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="11" vertex="1">
+                    <mxGeometry x="30" y="460" width="23.75" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="11" vertex="1">
+                    <mxGeometry x="97.25" y="459" width="23.75" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="百果园服务端" style="swimlane;startSize=20;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="8" vertex="1">
+                    <mxGeometry x="630" y="40" width="180" height="580" as="geometry">
+                        <mxRectangle x="240" y="20" width="30" height="470" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="用户校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="19" vertex="1">
+                    <mxGeometry x="27" y="90" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="任务校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="19" vertex="1">
+                    <mxGeometry x="30" y="515" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="279" value="奖品发放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="19" vertex="1">
+                    <mxGeometry x="27" y="420" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="移卡服务端" style="swimlane;startSize=20;" parent="8" vertex="1">
+                    <mxGeometry x="810" y="40" width="150" height="580" as="geometry">
+                        <mxRectangle x="240" y="20" width="30" height="470" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#3333FF;endArrow=classicThin;endFill=1;shadow=0;startArrow=classicThin;startFill=1;" parent="20" source="31" target="94" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="75" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 10px&quot;&gt;校验参数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="45" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font style=&quot;font-size: 10px&quot;&gt;返回移卡账号信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="33.75" y="140" width="82.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.027;entryY=0.544;entryDx=0;entryDy=0;shadow=0;fontSize=14;fontColor=#3333FF;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="20" source="63" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="77.5" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="440"/>
+                            <mxPoint x="120" y="480"/>
+                            <mxPoint x="130" y="470"/>
+                            <mxPoint x="120" y="460"/>
+                            <mxPoint x="130" y="400"/>
+                            <mxPoint x="110" y="370"/>
+                            <mxPoint x="100" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="百果园事件接收" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="20" vertex="1">
+                    <mxGeometry x="30" y="515" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.512;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;" parent="20" source="71" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="任务校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="47.5" y="191" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="20" source="74" target="280" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="处理任务" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="55" y="280" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=8;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;entryX=0.513;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.52;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" parent="20" source="94" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="76" y="139" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="76" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="&lt;span style=&quot;font-size: 10px&quot;&gt;获取百果园用户信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="20" vertex="1">
+                    <mxGeometry x="45" y="90" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;entryX=0.492;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="20" source="273" target="291" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="78" y="480" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="77" y="479"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="273" value="&lt;font style=&quot;font-size: 9px&quot;&gt;百果园奖品？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="20" vertex="1">
+                    <mxGeometry x="55" y="411" width="44" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" edge="1" parent="20" source="280" target="273">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="获得奖品" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="47" y="360" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="291" value="获得游戏道具" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="39.25" y="480" width="77" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="20" vertex="1">
+                    <mxGeometry x="29" y="411" width="21" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;endArrow=classicThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="8" source="304" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="165"/>
+                            <mxPoint x="310" y="95"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;font-size: 10px ; font-weight: 700 ; background-color: rgb(248 , 249 , 250)&quot;&gt;1. H5界面跳转接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;labelBorderColor=none;fontSize=14;fontStyle=0" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2145" y="1" relative="1" as="geometry">
+                        <mxPoint x="8" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;dashed=1;endArrow=classicThin;endFill=1;" parent="8" source="25" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="登录移卡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" parent="38" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1447" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#3333FF;targetPerimeterSpacing=0;dashed=1;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=2;" parent="8" source="94" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="170" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="5. 获取用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBorderColor=none;fontStyle=1" parent="44" vertex="1" connectable="0">
+                    <mxGeometry x="0.1537" y="-1" relative="1" as="geometry">
+                        <mxPoint x="9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=14;fontColor=#3333FF;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;dashed=1;startArrow=classicThin;startFill=1;strokeColor=#0000FF;strokeWidth=2;" parent="8" source="60" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="6. 通知移卡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBorderColor=none;fontStyle=1" parent="64" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3471" y="1" relative="1" as="geometry">
+                        <mxPoint x="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=14;fontColor=#3333FF;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;dashed=1;startArrow=classicThin;startFill=1;strokeColor=#0000FF;strokeWidth=2;" parent="8" source="21" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="任务行为接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBorderColor=none;fontStyle=1" parent="66" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1504" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=10;fontColor=#000000;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#0000FF;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="8" source="87" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="520"/>
+                            <mxPoint x="140" y="103"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="&lt;span style=&quot;font-weight: 700 ; background-color: rgb(248 , 249 , 250)&quot;&gt;4. 小程序跳转接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" parent="88" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6625" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-39" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="8" source="104" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="230" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="460" y="250"/>
+                            <mxPoint x="490" y="280"/>
+                            <mxPoint x="800" y="280"/>
+                            <mxPoint x="460" y="250"/>
+                            <mxPoint x="470" y="280"/>
+                            <mxPoint x="780" y="280"/>
+                            <mxPoint x="480" y="240"/>
+                            <mxPoint x="580" y="280"/>
+                            <mxPoint x="680" y="270"/>
+                            <mxPoint x="340" y="270"/>
+                            <mxPoint x="440" y="245"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="任务行为接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" parent="114" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1757" y="1" relative="1" as="geometry">
+                        <mxPoint x="-42" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="8" source="256" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="345" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="330"/>
+                            <mxPoint x="140" y="340"/>
+                            <mxPoint x="90" y="346"/>
+                            <mxPoint x="330" y="346"/>
+                        </Array>
+                        <mxPoint x="250" y="315" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="254" value="&lt;span&gt;3. 小游戏跳转接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontStyle=1" parent="117" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1686" y="2" relative="1" as="geometry">
+                        <mxPoint x="53" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;dashed=1;" parent="8" source="87" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="任务行为接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" parent="119" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1773" y="2" relative="1" as="geometry">
+                        <mxPoint x="22" y="-21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=0;fontSize=8;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#000000;dashed=1;" parent="8" source="53" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="610" y="360"/>
+                            <mxPoint x="560" y="200"/>
+                            <mxPoint x="390" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="登录移卡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" parent="122" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4627" relative="1" as="geometry">
+                        <mxPoint y="-32" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=classicThin;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" parent="8" source="241" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="95" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="253" value="打开百果园小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="242" vertex="1" connectable="0">
+                    <mxGeometry x="-0.312" y="1" relative="1" as="geometry">
+                        <mxPoint x="11" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;endArrow=classicThin;endFill=1;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" parent="8" source="247" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="370"/>
+                            <mxPoint x="390" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="252" value="打开小游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="248" vertex="1" connectable="0">
+                    <mxGeometry x="0.0784" y="1" relative="1" as="geometry">
+                        <mxPoint x="-33" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;endArrow=classicThin;endFill=1;strokeWidth=2;strokeColor=#0000FF;" parent="8" source="104" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="265" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="259" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5964" relative="1" as="geometry">
+                        <mxPoint x="-13" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=classicThin;endFill=1;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;" parent="8" source="52" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#0000FF;strokeWidth=2;startArrow=classicThin;startFill=1;exitX=-0.04;exitY=0.501;exitDx=0;exitDy=0;exitPerimeter=0;" parent="8" source="273" target="279" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="298" value="&lt;b style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;7. 请求百果园奖品&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="283" vertex="1" connectable="0">
+                    <mxGeometry x="0.5408" y="-1" relative="1" as="geometry">
+                        <mxPoint x="36" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="271" value="注意：1-7是移卡和百果园之间协商的接口，详细见下面描述" style="text;html=1;strokeColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFB366;fontStyle=2;spacing=4;spacingBottom=6;spacingRight=0;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="650" width="360" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="907" y="513" width="24" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
